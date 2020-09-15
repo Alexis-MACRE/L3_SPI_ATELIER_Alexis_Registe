@@ -1,0 +1,28 @@
+{
+	// Place your L3 workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"docstring": {
+		"prefix": ["doc"],
+		"body": ["\"\"\"Description\n\nArguments:\nargument1 -- description\n\nRetourne\n\"\"\""],
+		"description": "la docstring"
+	   },
+	"en-tête": {
+		"prefix": ["en-tete"],
+		"body": ["# Auteur(s) : \n# Date : xx/xx/2020\n# Version : 1.0\n# Description : Atelier de programmation x Exo x Python"],
+		"description": "en-tête de fichier"
+	   }
+}
