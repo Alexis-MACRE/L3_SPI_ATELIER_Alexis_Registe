@@ -1,3 +1,8 @@
+# Auteur(s) : MACRE Alexis & DJESSOU Registe
+# Date : 17/09/2020
+# Version : 1.0
+# Description : Atelier de programmation 4 Exo 3 Python
+
 from fonctions_persos import test_fonction
 from random import randint
 
@@ -168,7 +173,7 @@ def runGame():
           print("Perdu ! le mot était",mot_random)
 
 
-runGame()
+#runGame()
 
 
 #test_fonction(placesLettre,[["a","apparaître"]],[[0,3,5]],2)

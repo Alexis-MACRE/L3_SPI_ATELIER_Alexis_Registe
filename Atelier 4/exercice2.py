@@ -50,5 +50,3 @@ def dictionnaire(fichier:str):
     return [ligne.strip("\n") for ligne in liste_lignes]
 
 #print(liste_mots(["jouer","bonjour","punir","jour","aurevoir","revoir","pouvoir","cour","abajour","finir","aimer"],"a","r",8))
-
-print(dictionnaire("test.txt"))
